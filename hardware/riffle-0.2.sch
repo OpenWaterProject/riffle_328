@@ -14757,125 +14757,6 @@ body 7.63 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="_SparkFun">
-<packages>
-<package name="SJ_2S">
-<description>Small solder jumper with big paste layer so it will short during reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
-<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
-</package>
-<package name="SJ_2S-TRACE">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SJ_2S-NOTRACE">
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
-</package>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SOLDERJUMPER" prefix="SJ">
-<description>&lt;b&gt;Solder Jumper&lt;/b&gt;
-Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NC" package="SJ_2S">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TRACE" package="SJ_2S-TRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NC2" package="SJ_2S-NOTRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NO" package="SJ_2S-NO">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="resistor">
 <packages>
 <package name="C0402">
@@ -17572,9 +17453,7 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="RTC" library="_lh-library" deviceset="DS3231" device="" value="DS3231"/>
 <part name="BAT" library="SparkFunNew" deviceset="BATTERY" device="BATTERY_12MM_SMT" value="CR1220"/>
-<part name="RRTC1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
-<part name="RTCINT" library="_SparkFun" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="X3" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz"/>
 <part name="REMOTE" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
@@ -17677,14 +17556,7 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="13.97" y="154.432" size="1.778" layer="95"/>
 <attribute name="VALUE" x="13.97" y="151.892" size="1.778" layer="96"/>
 </instance>
-<instance part="RRTC1" gate="G$1" x="-45.466" y="168.148" smashed="yes" rot="R180">
-<attribute name="NAME" x="-48.006" y="166.878" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-44.958" y="165.608" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="P+9" gate="VCC" x="-33.02" y="173.99"/>
-<instance part="RTCINT" gate="1" x="-55.88" y="162.306" smashed="yes" rot="R180">
-<attribute name="NAME" x="-53.34" y="166.116" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="X3" gate="G$1" x="10.16" y="41.91" rot="R270"/>
 <instance part="REMOTE" gate="A" x="140.462" y="41.148" rot="MR270"/>
 <instance part="GND1" gate="1" x="118.618" y="41.148" rot="R270"/>
@@ -18034,8 +17906,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="-29.21" y1="163.83" x2="-40.386" y2="168.148" width="0.1524" layer="91"/>
 <wire x1="-40.386" y1="168.148" x2="-33.02" y2="171.45" width="0.1524" layer="91"/>
-<pinref part="RRTC1" gate="G$1" pin="1"/>
-<junction x="-40.386" y="168.148"/>
 <pinref part="RTC" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -18173,11 +18043,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="69.85" y1="31.75" x2="62.23" y2="31.75" width="0.1524" layer="91"/>
 <label x="66.04" y="31.75" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RTCINT" gate="1" pin="2"/>
-<wire x1="-60.96" y1="162.306" x2="-62.484" y2="167.132" width="0.1524" layer="91"/>
-<label x="-64.008" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -18428,17 +18293,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="8.89" y1="161.29" x2="8.89" y2="159.512" width="0.1524" layer="91"/>
 <pinref part="RTC" gate="G$1" pin="VBAT"/>
 <pinref part="BAT" gate="G$1" pin="+"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="RRTC1" gate="G$1" pin="2"/>
-<pinref part="RTCINT" gate="1" pin="1"/>
-<wire x1="-50.8" y1="162.306" x2="-50.546" y2="168.148" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="INT/SQW"/>
-<wire x1="-50.8" y1="162.306" x2="-29.21" y2="162.306" width="0.1524" layer="91"/>
-<wire x1="-29.21" y1="162.306" x2="-29.21" y2="161.29" width="0.1524" layer="91"/>
-<junction x="-50.8" y="162.306"/>
 </segment>
 </net>
 <net name="N$7" class="0">
