@@ -1,5 +1,5 @@
 ﻿CERN Open Hardware Licence v1.2 
-
+ 
 Preamble
 
 Through this CERN Open Hardware Licence ("CERN OHL") version 1.2, CERN
