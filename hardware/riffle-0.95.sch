@@ -5086,7 +5086,7 @@ body 7.63 mm</description>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="RTC" library="_lh-library" deviceset="DS3231" device="" value="DS3231"/>
+<part name="RTC-DS3231" library="_lh-library" deviceset="DS3231" device="" value="DS3231"/>
 <part name="BAT" library="SparkFunNew" deviceset="BATTERY" device="BATTERY_12MM_SMT" value="CR1220"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="X3" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz"/>
@@ -5167,7 +5167,7 @@ body 7.63 mm</description>
 <instance part="GND9" gate="1" x="212.09" y="111.76" rot="R90"/>
 <instance part="P+5" gate="VCC" x="42.926" y="164.338"/>
 <instance part="P+10" gate="VCC" x="53.086" y="165.354"/>
-<instance part="RTC" gate="G$1" x="-16.51" y="157.48"/>
+<instance part="RTC-DS3231" gate="G$1" x="-16.51" y="157.48"/>
 <instance part="BAT" gate="G$1" x="8.89" y="154.432" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.97" y="154.432" size="1.778" layer="95"/>
 <attribute name="VALUE" x="13.97" y="151.892" size="1.778" layer="96"/>
@@ -5386,15 +5386,15 @@ body 7.63 mm</description>
 <junction x="-31.75" y="153.67"/>
 <junction x="-31.75" y="151.13"/>
 <junction x="-31.75" y="148.59"/>
-<pinref part="RTC" gate="G$1" pin="GND"/>
-<pinref part="RTC" gate="G$1" pin="NC@8"/>
-<pinref part="RTC" gate="G$1" pin="NC@7"/>
-<pinref part="RTC" gate="G$1" pin="NC@6"/>
-<pinref part="RTC" gate="G$1" pin="NC@5"/>
-<pinref part="RTC" gate="G$1" pin="NC@1"/>
-<pinref part="RTC" gate="G$1" pin="NC@2"/>
-<pinref part="RTC" gate="G$1" pin="NC@3"/>
-<pinref part="RTC" gate="G$1" pin="NC@4"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="GND"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@8"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@7"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@6"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@5"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@1"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@2"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@3"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="NC@4"/>
 <pinref part="BAT" gate="G$1" pin="-"/>
 </segment>
 <segment>
@@ -5620,7 +5620,7 @@ body 7.63 mm</description>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="-29.21" y1="163.83" x2="-37.592" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="-37.592" y1="163.83" x2="-37.592" y2="171.45" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="VCC"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="REMOTE" gate="A" pin="S"/>
@@ -5971,7 +5971,7 @@ body 7.63 mm</description>
 </segment>
 <segment>
 <wire x1="-3.81" y1="163.83" x2="12.446" y2="163.83" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="SDA"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="SDA"/>
 <label x="13.208" y="163.83" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -5999,7 +5999,7 @@ body 7.63 mm</description>
 </segment>
 <segment>
 <wire x1="-3.81" y1="166.37" x2="12.446" y2="166.37" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="SCL"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="SCL"/>
 <label x="12.954" y="166.878" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6022,7 +6022,7 @@ body 7.63 mm</description>
 <segment>
 <wire x1="-3.81" y1="161.29" x2="8.89" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="8.89" y1="161.29" x2="8.89" y2="159.512" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="VBAT"/>
+<pinref part="RTC-DS3231" gate="G$1" pin="VBAT"/>
 <pinref part="BAT" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -6140,7 +6140,6 @@ body 7.63 mm</description>
 <approved hash="104,1,13.97,52.07,IC1,AVCC,VCC,,,"/>
 <approved hash="111,1,53.34,114.3,VDD,,,,,"/>
 <approved hash="111,1,10.16,52.07,VCC,,,,,"/>
-<approved hash="113,1,100.567,94.1112,CN1,,,,,"/>
 <approved hash="113,1,123.148,75.0612,ISP,,,,,"/>
 </errors>
 </schematic>
