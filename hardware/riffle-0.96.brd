@@ -1198,43 +1198,43 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="4.64" y="11.8407" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="6.8115" y="12.6808" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="microbuilder" package="0603-NO" value="68 (0603)" x="11.3" y="15.4" smashed="yes" rot="R270">
+<element name="R1" library="microbuilder" package="0603-NO" value="10K" x="11.3" y="15.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.9779" y="17.0531" size="0.4064" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="10.538" y="13.622" size="0.4064" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R2" library="microbuilder" package="0603-NO" value="68 (0603)" x="14.3" y="15.5" smashed="yes" rot="R90">
+<element name="R2" library="microbuilder" package="0603-NO" value="4.7K" x="14.3" y="15.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.9887" y="17.1198" size="0.4064" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="15.062" y="17.278" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R3" library="microbuilder" package="0603-NO" value="68 (0603)" x="26.2" y="11.7" smashed="yes">
+<element name="R3" library="microbuilder" package="0603-NO" value="10K" x="26.2" y="11.7" smashed="yes">
 <attribute name="NAME" x="24.2476" y="12.0778" size="0.4064" layer="25" font="vector" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="27.978" y="10.938" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R4" library="microbuilder" package="0603-NO" value="68 (0603)" x="36.3" y="4.8" smashed="yes" rot="R90">
+<element name="R4" library="microbuilder" package="0603-NO" value="10K" x="36.3" y="4.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.9409" y="4.7885" size="0.4064" layer="25" font="vector" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="37.062" y="6.578" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R5" library="microbuilder" package="0603-NO" value="68 (0603)" x="14.8905" y="12.3254" smashed="yes" rot="R90">
+<element name="R5" library="microbuilder" package="0603-NO" value="10K" x="14.8905" y="12.3254" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.8496" y="12.846" size="0.4064" layer="25" font="vector" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="15.6525" y="14.1034" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R6" library="microbuilder" package="0603-NO" value="68 (0603)" x="16.1762" y="12.3127" smashed="yes" rot="R90">
+<element name="R6" library="microbuilder" package="0603-NO" value="10K" x="16.1762" y="12.3127" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.1795" y="12.1603" size="0.4064" layer="25" font="vector" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="16.9382" y="14.0907" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R7" library="microbuilder" package="0603-NO" value="68 (0603)" x="49.4" y="15.7" smashed="yes" rot="R270">
+<element name="R7" library="microbuilder" package="0603-NO" value="50K" x="49.4" y="15.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.1081" y="17.3071" size="0.4064" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="48.638" y="13.922" size="0.4064" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R8" library="microbuilder" package="0603-NO" value="68 (0603)" x="50.8" y="15.7" smashed="yes" rot="R90">
+<element name="R8" library="microbuilder" package="0603-NO" value="50K" x="50.8" y="15.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.1528" y="17.6911" size="0.4064" layer="25" font="vector" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="51.562" y="17.478" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R9" library="microbuilder" package="0603-NO" value="68 (0603)" x="20.4" y="2.8" smashed="yes" rot="R180">
+<element name="R9" library="microbuilder" package="0603-NO" value="10K" x="20.4" y="2.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.0462" y="3.4738" size="0.4064" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="18.622" y="3.562" size="0.4064" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R10" library="microbuilder" package="0603-NO" value="68 (0603)" x="20.4" y="1.1" smashed="yes" rot="R180">
+<element name="R10" library="microbuilder" package="0603-NO" value="10K" x="20.4" y="1.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.9479" y="0.0938" size="0.4064" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="18.622" y="1.862" size="0.4064" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
@@ -1270,7 +1270,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="50.938" y="7.611" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="52.843" y="7.484" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C9" library="SparkFun" package="0603-CAP" value="10uF" x="52.3" y="15.7" smashed="yes" rot="R90">
+<element name="C9" library="SparkFun" package="0603-CAP" value="0.1uF" x="52.3" y="15.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.6895" y="17.7306" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="53.443" y="14.684" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>

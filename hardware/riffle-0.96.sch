@@ -5112,16 +5112,16 @@ body 7.63 mm</description>
 <part name="L1" library="adafruit" deviceset="PTCFUSE" device="-1206" value="500mA"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY"/>
 <part name="D4" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY"/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R9" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
-<part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="68 (0603)"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="4.7K"/>
+<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="50K"/>
+<part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="50K"/>
+<part name="R9" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -5130,7 +5130,7 @@ body 7.63 mm</description>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C8" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C10" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="U$4" library="Testing" deviceset="USB-AB" device="&quot;&quot;"/>
