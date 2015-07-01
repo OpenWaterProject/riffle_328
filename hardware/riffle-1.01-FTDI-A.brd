@@ -139,7 +139,7 @@
 <circle x="34.9885" y="9.906" radius="0.3352875" width="0.1524" layer="21"/>
 <wire x1="17.0053" y1="11.1633" x2="17.7038" y2="11.1633" width="0.1524" layer="21" curve="-126.039539"/>
 <text x="39.2684" y="16.5862" size="0.4064" layer="21" font="vector">eeprom</text>
-<text x="7.6708" y="3.7211" size="0.8128" layer="21" font="vector" rot="R270">GND</text>
+<text x="7.6454" y="2.3749" size="0.8128" layer="21" font="vector">GND</text>
 <text x="53.594" y="7.874" size="0.4064" layer="21" font="vector" rot="R180">328p</text>
 <text x="19.2659" y="1.1557" size="0.8128" layer="21" font="vector" rot="R90">-</text>
 <text x="17.5514" y="13.2969" size="0.4064" layer="21" font="vector" rot="R270">IC2</text>
@@ -188,6 +188,10 @@
 <wire x1="45.4279" y1="0.381" x2="45.4279" y2="1.143" width="0.06" layer="21"/>
 <wire x1="45.4279" y1="1.143" x2="44.1071" y2="1.143" width="0.06" layer="21"/>
 <hole x="55.2831" y="12.9032" drill="1.4"/>
+<text x="7.5184" y="7.3152" size="0.8128" layer="21" font="vector">VBUS</text>
+<text x="7.4295" y="9.9187" size="0.8128" layer="21" font="vector">RX</text>
+<text x="7.3533" y="12.5095" size="0.8128" layer="21" font="vector">TX</text>
+<text x="7.3152" y="14.9352" size="0.8128" layer="21" font="vector">DTR</text>
 </plain>
 <libraries>
 <library name="SparkFun">
