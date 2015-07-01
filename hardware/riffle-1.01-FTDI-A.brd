@@ -2114,7 +2114,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RXD">
 <contactref element="IC1" pad="30"/>
 <contactref element="JP5" pad="10"/>
-<wire x1="28.575" y1="2.9718" x2="23.2791" y2="8.1915" width="0.1524" layer="16"/>
+<wire x1="28.575" y1="2.9718" x2="25.2984" y2="3.6322" width="0.1524" layer="16"/>
+<wire x1="25.2984" y1="3.6322" x2="25.2984" y2="5.3848" width="0.1524" layer="16"/>
+<wire x1="25.2984" y1="5.3848" x2="24.9682" y2="5.715" width="0.1524" layer="16"/>
+<wire x1="24.9682" y1="5.715" x2="24.9682" y2="6.5024" width="0.1524" layer="16"/>
+<wire x1="24.9682" y1="6.5024" x2="23.2791" y2="8.1915" width="0.1524" layer="16"/>
 <wire x1="42.7482" y1="2.9718" x2="28.575" y2="2.9718" width="0.1524" layer="16"/>
 <wire x1="42.7482" y1="6.7056" x2="42.7482" y2="2.9718" width="0.1524" layer="1"/>
 <wire x1="43.3578" y1="7.3152" x2="42.7482" y2="6.7056" width="0.1524" layer="1"/>
@@ -2151,7 +2155,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP5" pad="12"/>
 <wire x1="23.3807" y1="8.6106" x2="21.4249" y2="8.6233" width="0.1524" layer="16"/>
 <wire x1="24.0792" y1="7.9248" x2="23.3807" y2="8.6106" width="0.1524" layer="16"/>
-<wire x1="27.1272" y1="4.8768" x2="24.0792" y2="7.9248" width="0.1524" layer="16"/>
+<wire x1="27.1272" y1="4.8768" x2="26.416" y2="4.8895" width="0.1524" layer="16"/>
+<wire x1="26.416" y1="4.8895" x2="26.3271" y2="4.8895" width="0.1524" layer="16"/>
+<wire x1="26.3271" y1="4.8895" x2="25.4127" y2="5.8039" width="0.1524" layer="16"/>
+<wire x1="25.4127" y1="5.8039" x2="25.4127" y2="6.5913" width="0.1524" layer="16"/>
+<wire x1="25.4127" y1="6.5913" x2="24.0792" y2="7.9248" width="0.1524" layer="16"/>
 <wire x1="42.9006" y1="4.8768" x2="27.1272" y2="4.8768" width="0.1524" layer="16"/>
 <wire x1="45.5676" y1="7.5438" x2="42.9006" y2="4.8768" width="0.1524" layer="16"/>
 <wire x1="46.4058" y1="8.382" x2="45.5676" y2="7.5438" width="0.1524" layer="1"/>
@@ -2174,9 +2182,9 @@ Please make sure your boards conform to these design rules.</description>
 <via x="45.5676" y="7.5438" extent="1-16" drill="0.3302"/>
 <via x="51.2064" y="8.0772" extent="1-16" drill="0.3302"/>
 <contactref element="JP2" pad="5"/>
-<wire x1="21.4249" y1="8.6233" x2="11.6078" y2="8.6233" width="0.1524" layer="16"/>
-<wire x1="11.6078" y1="8.6233" x2="6.9215" y2="12.8524" width="0.1524" layer="16"/>
-<wire x1="6.9215" y1="12.8524" x2="5.3467" y2="12.8524" width="0.1524" layer="16"/>
+<wire x1="21.4249" y1="8.6233" x2="10.9728" y2="8.6487" width="0.1524" layer="16"/>
+<wire x1="10.9728" y1="8.6487" x2="5.3086" y2="12.8778" width="0.1524" layer="16"/>
+<wire x1="5.3086" y1="12.8778" x2="5.3467" y2="12.8524" width="0.1524" layer="16"/>
 <wire x1="5.3467" y1="12.8524" x2="5.3213" y2="12.8778" width="0.1524" layer="16"/>
 </signal>
 <signal name="D2">
