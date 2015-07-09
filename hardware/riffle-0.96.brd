@@ -136,7 +136,7 @@
 <wire x1="9.8044" y1="11.0236" x2="10.5029" y2="11.0236" width="0.1524" layer="21" curve="-126.039539"/>
 <text x="32.0675" y="16.4465" size="0.4064" layer="21" font="vector">eeprom</text>
 <text x="16.1036" y="4.2672" size="0.4064" layer="21" font="vector" rot="R90">CH340G</text>
-<text x="10.668" y="1.0033" size="0.4064" layer="21" font="vector" rot="R90">X2</text>
+<text x="10.9601" y="0.6985" size="0.8128" layer="21" font="vector" rot="R90">X2</text>
 <text x="46.3931" y="7.7343" size="0.4064" layer="21" font="vector" rot="R180">328p</text>
 <text x="3.7211" y="17.0815" size="0.8128" layer="21" font="vector">+</text>
 <text x="4.2037" y="12.9159" size="0.8128" layer="21" font="vector" rot="R90">-</text>
@@ -166,19 +166,19 @@
 <wire x1="63.1571" y1="17.2466" x2="63.1571" y2="11.5316" width="0.06" layer="22"/>
 <wire x1="63.1571" y1="11.5316" x2="59.7535" y2="11.5316" width="0.06" layer="22"/>
 <wire x1="59.7535" y1="11.5316" x2="59.7535" y2="17.2466" width="0.06" layer="22"/>
-<text x="37.9857" y="14.9098" size="0.4064" layer="21" font="vector">RESET</text>
-<text x="40.4876" y="14.859" size="0.4064" layer="21" font="vector">SCK</text>
-<text x="42.9895" y="14.8844" size="0.4064" layer="21" font="vector">MISO</text>
-<text x="37.8968" y="11.9507" size="0.4064" layer="21" font="vector">GND</text>
-<text x="40.4241" y="11.9761" size="0.4064" layer="21" font="vector">MOSI</text>
-<text x="44.6659" y="11.9888" size="0.4064" layer="21" font="vector" rot="R45">VBUS</text>
+<text x="37.8714" y="14.8336" size="0.635" layer="21" font="vector">RST</text>
+<text x="40.3225" y="14.7955" size="0.635" layer="21" font="vector">SCK</text>
+<text x="42.672" y="14.8209" size="0.635" layer="21" font="vector">MISO</text>
+<text x="37.8714" y="11.9634" size="0.635" layer="21" font="vector">GND</text>
+<text x="40.4241" y="11.9761" size="0.508" layer="21" font="vector">MOSI</text>
+<text x="44.5389" y="11.7602" size="0.508" layer="21" font="vector" rot="R45">VBUS</text>
 <text x="17.2212" y="17.2847" size="0.4064" layer="21" font="vector">ON</text>
-<text x="17.3228" y="10.3759" size="0.4064" layer="21" font="vector">OFF</text>
-<text x="13.4112" y="17.3228" size="0.4064" layer="21" font="vector" rot="R180">CHG</text>
-<wire x1="12.1793" y1="17.5133" x2="13.5255" y2="17.5133" width="0.06" layer="21"/>
-<wire x1="13.5255" y1="17.5133" x2="13.5255" y2="16.7386" width="0.06" layer="21"/>
-<wire x1="13.5255" y1="16.7386" x2="12.1793" y2="16.7386" width="0.06" layer="21"/>
-<wire x1="12.1793" y1="16.7386" x2="12.1793" y2="17.4879" width="0.06" layer="21"/>
+<text x="22.4155" y="10.287" size="0.508" layer="21" font="vector">OFF</text>
+<text x="12.6111" y="17.8435" size="0.4064" layer="21" font="vector" rot="R270">CHG</text>
+<wire x1="12.4079" y1="17.8181" x2="13.1699" y2="17.8308" width="0.06" layer="21"/>
+<wire x1="13.1699" y1="17.8308" x2="13.1826" y2="16.6497" width="0.06" layer="21"/>
+<wire x1="13.1826" y1="16.6497" x2="12.4333" y2="16.6497" width="0.06" layer="21"/>
+<wire x1="12.4333" y1="16.6497" x2="12.446" y2="17.8181" width="0.06" layer="21"/>
 <text x="15.113" y="17.4625" size="0.6096" layer="22" font="vector" rot="MR180">RIFFLE-328p ver 0.95</text>
 <text x="31.5849" y="1.4351" size="0.762" layer="22" font="vector" rot="MR180">publiclab.org/wiki/riffle</text>
 <text x="4.3053" y="17.0815" size="0.8128" layer="22" font="vector" rot="MR0">+</text>
@@ -1148,7 +1148,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="REMOTE" library="zetex" package="SOT-23" value="FDN340P" x="51.2477" y="11.6904" smashed="yes" rot="R270">
 <attribute name="VALUE" x="53.0257" y="13.0874" size="1.27" layer="27" ratio="10" rot="R270"/>
-<attribute name="NAME" x="48.4599" y="12.3245" size="0.4064" layer="25" ratio="10"/>
+<attribute name="NAME" x="53.5504" y="9.5344" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_NEWARK" value="unknown" x="51.2477" y="11.6904" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="51.2477" y="11.6904" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="51.2477" y="11.6904" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1174,40 +1174,40 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="47" y="15.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="47" y="15.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.397" y="13.922" size="1.27" layer="27" ratio="10" rot="R180"/>
-<attribute name="NAME" x="48.1684" y="17.7066" size="0.4064" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="49.0701" y="17.9098" size="0.7112" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="JP3" library="SparkFun" package="1X04-SMD" value="" x="61.8" y="5.2" smashed="yes" rot="MR270"/>
 <element name="JP5" library="pinhead" package="2X07" value="" x="69.5" y="9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="73.945" y="0.11" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D1" library="LowPowerLab" package="0603-LED" value="LED0603" x="12.8" y="15.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.9321" y="13.8922" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="12.1428" y="14.164" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="D2" library="LowPowerLab" package="0603-LED" value="LED0603" x="36.3" y="1.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3541" y="1.546" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="L1" library="adafruit" package="R1206" value="500mA" x="8.9048" y="4.1842" smashed="yes">
-<attribute name="NAME" x="8.0539" y="2.6221" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="6.3822" y="3.4819" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="7.5078" y="1.7712" size="1.27" layer="27"/>
 </element>
 <element name="D3" library="adafruit" package="SOD-123FL" value="SCHOTTKY" x="8.854" y="6.1254" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.0887" y="6.4996" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="5.8728" y="6.906" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" x="9.954" y="7.4094" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="D4" library="adafruit" package="SOD-123FL" value="SCHOTTKY" x="5.7115" y="11.3968" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.64" y="11.8407" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="5.317" y="9.5168" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="6.8115" y="12.6808" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="microbuilder" package="0603-NO" value="10K" x="11.3" y="15.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.9779" y="17.0531" size="0.4064" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="10.7493" y="17.0404" size="0.8128" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="10.538" y="13.622" size="0.4064" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R2" library="microbuilder" package="0603-NO" value="4.7K" x="14.3" y="15.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.9887" y="17.1198" size="0.4064" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="13.6712" y="17.0436" size="0.8128" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="15.062" y="17.278" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R3" library="microbuilder" package="0603-NO" value="10K" x="26.2" y="11.7" smashed="yes">
-<attribute name="NAME" x="24.2476" y="12.0778" size="0.4064" layer="25" font="vector" ratio="18" rot="R270"/>
+<attribute name="NAME" x="24.7395" y="12.0683" size="0.635" layer="25" font="vector" ratio="18" rot="R135"/>
 <attribute name="VALUE" x="27.978" y="10.938" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R4" library="microbuilder" package="0603-NO" value="10K" x="36.3" y="4.8" smashed="yes" rot="R90">
@@ -1215,19 +1215,19 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="37.062" y="6.578" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R5" library="microbuilder" package="0603-NO" value="10K" x="14.8905" y="12.3254" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.8496" y="12.846" size="0.4064" layer="25" font="vector" ratio="18" rot="R270"/>
+<attribute name="NAME" x="13.0112" y="11.589" size="0.8128" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="15.6525" y="14.1034" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R6" library="microbuilder" package="0603-NO" value="10K" x="16.1762" y="12.3127" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.1795" y="12.1603" size="0.4064" layer="25" font="vector" ratio="18" rot="R90"/>
+<attribute name="NAME" x="18.3324" y="13.0647" size="0.8128" layer="25" font="vector" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="16.9382" y="14.0907" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R7" library="microbuilder" package="0603-NO" value="50K" x="49.4" y="15.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.1081" y="17.3071" size="0.4064" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="48.7144" y="13.3447" size="0.762" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="48.638" y="13.922" size="0.4064" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R8" library="microbuilder" package="0603-NO" value="50K" x="50.8" y="15.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.1528" y="17.6911" size="0.4064" layer="25" font="vector" ratio="18" rot="R180"/>
+<attribute name="NAME" x="51.6862" y="14.1351" size="0.762" layer="25" font="vector" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="51.562" y="17.478" size="0.4064" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R9" library="microbuilder" package="0603-NO" value="10K" x="20.4" y="2.8" smashed="yes" rot="R180">
@@ -1239,47 +1239,47 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="18.622" y="1.862" size="0.4064" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value="10uF" x="8.7" y="7.9" smashed="yes">
-<attribute name="NAME" x="10.2495" y="8.2672" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="10.3765" y="8.7879" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="7.684" y="6.757" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C2" library="SparkFun" package="0603-CAP" value="0.1uF" x="8.5" y="9.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.112" y="10.0875" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="10.2771" y="10.5193" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="9.516" y="10.843" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="0.1uF" x="21.4" y="5.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.4023" y="5.1489" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="20.975" y="5.6129" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="20.257" y="6.116" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C4" library="SparkFun" package="0603-CAP" value="10uF" x="9.8" y="15.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.1794" y="17.4708" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="10.6747" y="17.8264" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="10.943" y="14.484" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C5" library="SparkFun" package="0603-CAP" value="10uF" x="29.5" y="11.6" smashed="yes">
-<attribute name="NAME" x="29.2079" y="12.1461" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="28.0395" y="12.1969" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="28.484" y="10.457" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C6" library="SparkFun" package="0603-CAP" value="10uF" x="32.7" y="11.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.0302" y="12.5652" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="34.8717" y="11.0666" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="33.716" y="12.743" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C7" library="SparkFun" package="0603-CAP" value="0.1uF" x="16" y="15.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.7293" y="17.0414" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="15.4499" y="17.0541" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.857" y="16.516" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C8" library="SparkFun" package="0603-CAP" value="0.1uF" x="51.7" y="8.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.938" y="7.611" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="53.7935" y="7.7961" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="52.843" y="7.484" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C9" library="SparkFun" package="0603-CAP" value="0.1uF" x="52.3" y="15.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.6895" y="17.7306" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="52.9322" y="16.4818" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="53.443" y="14.684" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C10" library="SparkFun" package="0603-CAP" value="0.1uF" x="51.0556" y="2.1668" smashed="yes">
-<attribute name="NAME" x="50.1666" y="2.9288" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="49.5222" y="0.3826" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="50.0396" y="1.0238" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C11" library="SparkFun" package="0603-CAP" value="0.1uF" x="51.7" y="4.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.938" y="3.611" size="0.4064" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="51.1666" y="3.0776" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="52.843" y="3.484" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="U$4" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="1.5621" y="5.1562" smashed="yes">
