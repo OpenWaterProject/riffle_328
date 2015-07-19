@@ -20,7 +20,13 @@
 
 ---
 
-*  Modified for Riffle 0.96 to write three randomish values to datalog.txt
+*  Modified for Riffle 0.96 
+*  By Don Blair
+*  July 2015
+*  
+*  This code tests Riffle's SD card reader
+*    
+*  It writes three randomish values to datalog.txt on a formatted SD card
 *  ie: 234,253,302
 *  Creates datalog.txt if it doesn't exist
 *  
