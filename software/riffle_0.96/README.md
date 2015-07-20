@@ -5,13 +5,13 @@ Here is the software for the Riffle board version 0.96, which is the production 
 
 ## Requirements
 
-### The Riffle's Brain Needs to be On
+### Power Up
 
-Be sure to slide the switch toward the edge of the board.
+The Riffle's brain needs to be on to interact with it. (The "power" led just means there's power to the board, not necessarily that the brain is on. Just slide the switch toward the edge of the board to turn it on.
 
 ### Arduino Libraries
 
-The Riffl'es Real Time Clock needs a particular flavor of the RTC libarary to be in your Arduino's "Library" folder, which comes via [mizraith's Github page](https://github.com/mizraith/RTClib). Here's what to do:
+The Riffle's Real Time Clock needs a particular flavor of the RTC libarary to be in your Arduino's "Library" folder, which comes via [mizraith's Github page](https://github.com/mizraith/RTClib). Here's what to do:
 
   - [Download this zip file](https://github.com/mizraith/RTClib/archive/master.zip)
   - Unzip it
