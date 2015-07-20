@@ -5,9 +5,13 @@ Here is the software for the Riffle board version 0.96, which is the production 
 
 ## Requirements
 
+### The Riffle's Brain Needs to be On
+
+Be sure to slide the switch toward the edge of the board.
+
 ### Arduino Libraries
 
-The Real Time Clock needs a particular flavor of the RTC libarary to be in your Arduino's "Library" folder, which comes via [mizraith's Github page](https://github.com/mizraith/RTClib). Here's what to do:
+The Riffl'es Real Time Clock needs a particular flavor of the RTC libarary to be in your Arduino's "Library" folder, which comes via [mizraith's Github page](https://github.com/mizraith/RTClib). Here's what to do:
 
   - [Download this zip file](https://github.com/mizraith/RTClib/archive/master.zip)
   - Unzip it
