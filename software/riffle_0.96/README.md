@@ -25,7 +25,7 @@ The Riffle is using a special USB chip, and may require a special driver so that
 
 #### Mac OS
 
-For Macs, you'll definitely need a driver. Download and install it from here: [https://mail.google.com/mail/u/0/#inbox/14ea83525bfc1fa2](https://mail.google.com/mail/u/0/#inbox/14ea83525bfc1fa2)
+For Macs, you'll definitely need a driver. Download and install it from here: [http://raysfiles.com/drivers/ch341ser_mac.zip](http://raysfiles.com/drivers/ch341ser_mac.zip)
 
 #### Ubuntu
 
