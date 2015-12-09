@@ -920,6 +920,18 @@ body 7.63 mm</description>
 </package>
 </packages>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMD1,27-2,54">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1289,6 +1301,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J2" library="MF_Connectors" package="MICROUSB-RIGHT" value="" x="15.1892" y="3.4798"/>
 <element name="IC7" library="adafruit" package="SOT23-5L" value="MIC5225-3.3V" x="51.7144" y="15.113"/>
 <element name="IC8" library="adafruit" package="SOT23-5L" value="MIC5225-3.3V" x="55.0164" y="15.2146"/>
+<element name="RTC" library="wirepad" package="SMD1,27-2,54" value="" x="94.107" y="15.7734" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1741,6 +1754,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.4892" y1="2.0798" x2="18.4892" y2="2.0798" width="0" layer="19" extent="1-16"/>
 <wire x1="11.9892" y1="4.7498" x2="11.8892" y2="2.0798" width="0" layer="19" extent="1-16"/>
 <wire x1="18.3892" y1="4.7498" x2="18.4892" y2="2.0798" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="RTC-DS3231" pad="3"/>
+<contactref element="RTC" pad="1"/>
+<wire x1="94.107" y1="15.7734" x2="50.2868" y2="7.2796" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
