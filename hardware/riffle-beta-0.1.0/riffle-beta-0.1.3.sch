@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4768,6 +4768,7 @@ body 7.63 mm</description>
 <sheet>
 <plain>
 <text x="42.672" y="171.704" size="1.778" layer="91">i2c pullups</text>
+<text x="149.86" y="10.16" size="1.778" layer="91">3.3V</text>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="2.54" y="21.59"/>
