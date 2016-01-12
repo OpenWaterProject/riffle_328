@@ -197,6 +197,9 @@
 <text x="19.7104" y="13.0556" size="0.8128" layer="21" font="vector">IC2</text>
 <text x="13.3096" y="12.573" size="1.778" layer="21" rot="MR0">+</text>
 <text x="13.3604" y="9.9822" size="1.778" layer="21" rot="MR0">-</text>
+<text x="85.5726" y="15.9004" size="1.778" layer="21" font="vector">RIFFLE</text>
+<text x="88.2142" y="13.716" size="1.6764" layer="21" font="vector">v0.1.3</text>
+<text x="84.963" y="0.2794" size="0.778" layer="21" font="vector">publiclab.org/riffle</text>
 </plain>
 <libraries>
 <library name="SparkFun">
