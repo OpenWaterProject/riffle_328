@@ -195,6 +195,8 @@
 <text x="63.9826" y="11.176" size="1.016" layer="22" rot="MR0">publiclab.org/wiki/riffle</text>
 <text x="62.738" y="8.255" size="1.016" layer="22" rot="MR0">CERN OHL v1.2</text>
 <text x="19.7104" y="13.0556" size="0.8128" layer="21" font="vector">IC2</text>
+<text x="13.3096" y="12.573" size="1.778" layer="21" rot="MR0">+</text>
+<text x="13.3604" y="9.9822" size="1.778" layer="21" rot="MR0">-</text>
 </plain>
 <libraries>
 <library name="SparkFun">
