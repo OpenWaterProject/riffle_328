@@ -5163,9 +5163,9 @@ body 7.63 mm</description>
 <instance part="REMOTE" gate="A" x="-209.296" y="278.13" rot="MR270"/>
 <instance part="GND1" gate="1" x="-231.14" y="278.13" rot="R270"/>
 <instance part="P+6" gate="VCC" x="-198.882" y="280.67"/>
-<instance part="JP1" gate="G$1" x="60.96" y="175.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.15" y="174.625" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="67.31" y="180.34" size="1.778" layer="96" rot="R180"/>
+<instance part="JP1" gate="G$1" x="66.04" y="172.72" smashed="yes">
+<attribute name="NAME" x="52.07" y="173.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="167.64" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="319.532" y="236.728"/>
 <instance part="U$1" gate="G$1" x="196.342" y="252.222"/>
@@ -5470,11 +5470,6 @@ body 7.63 mm</description>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="63.5" y1="167.64" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="1" pin="GND"/>
 <wire x1="180.34" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="132.08" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
@@ -5483,6 +5478,11 @@ body 7.63 mm</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="63.5" y1="167.64" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -6157,10 +6157,10 @@ body 7.63 mm</description>
 </net>
 <net name="VGEN1" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 <label x="86.36" y="172.72" size="1.778" layer="95"/>
+<wire x1="114.3" y1="175.26" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
