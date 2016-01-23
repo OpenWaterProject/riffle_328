@@ -4802,7 +4802,7 @@ body 7.63 mm</description>
 <instance part="REMOTE" gate="A" x="156.464" y="29.21" rot="MR270"/>
 <instance part="GND1" gate="1" x="134.62" y="29.21" rot="R270"/>
 <instance part="P+6" gate="VCC" x="166.878" y="31.75"/>
-<instance part="JP1" gate="G$1" x="-80.264" y="82.55"/>
+<instance part="JP1" gate="G$1" x="-91.44" y="83.82" rot="R180"/>
 <instance part="GND4" gate="1" x="88.392" y="147.828"/>
 <instance part="U$1" gate="G$1" x="206.502" y="87.122"/>
 <instance part="BATTPOWER" gate="A" x="94.996" y="191.008" rot="MR270"/>
@@ -5077,10 +5077,9 @@ body 7.63 mm</description>
 <junction x="224.282" y="87.122"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="-82.804" y1="85.09" x2="-92.202" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="-92.202" y1="85.09" x2="-92.202" y2="85.344" width="0.1524" layer="91"/>
-<label x="-96.52" y="85.09" size="1.778" layer="95"/>
+<wire x1="-78.74" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
+<label x="-78.74" y="83.82" size="1.778" layer="95"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -5758,10 +5757,9 @@ body 7.63 mm</description>
 <label x="-95.504" y="53.848" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-82.804" y1="82.55" x2="-94.234" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="-94.234" y1="82.55" x2="-94.234" y2="83.058" width="0.1524" layer="91"/>
-<label x="-96.012" y="82.804" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="-88.9" y1="81.28" x2="-78.74" y2="81.28" width="0.1524" layer="91"/>
+<label x="-78.74" y="81.28" size="1.778" layer="95"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="119.38" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
