@@ -1286,7 +1286,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="-0.2286" y="-6.477" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-0.2286" y="-6.477" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D3" library="adafruit" package="SOD-123FL" value="SCHOTTKY" x="0.0508" y="-9.5758"/>
+<element name="D3" library="adafruit" package="SOD-123FL" value="SCHOTTKY SM4002PL-TP" x="0.0508" y="-9.5758"/>
 <element name="C5" library="SparkFun" package="0603-CAP" value="1uF" x="-0.6096" y="-12.6746"/>
 <element name="C6" library="SparkFun" package="0603-CAP" value="10uF" x="-0.6096" y="-15.6464"/>
 <element name="R11" library="microbuilder" package="0603-NO" value="100K" x="-0.635" y="-18.3388"/>

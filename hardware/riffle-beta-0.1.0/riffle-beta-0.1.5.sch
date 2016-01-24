@@ -5112,7 +5112,7 @@ body 7.63 mm</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFunNew" deviceset="AYZ0202" device=""/>
 <part name="Q1" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
-<part name="D3" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY"/>
+<part name="D3" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY SM4002PL-TP"/>
 <part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -5126,7 +5126,7 @@ body 7.63 mm</description>
 <text x="-215.9" y="259.08" size="1.778" layer="91">3.3V</text>
 <text x="-91.44" y="127" size="3.81" layer="91">USB-SERIAL</text>
 <text x="20.32" y="50.8" size="3.81" layer="91">Atmel328p</text>
-<text x="7.62" y="154.94" size="3.81" layer="91">Power Management</text>
+<text x="-7.62" y="167.64" size="3.81" layer="91">Power Management</text>
 <text x="-17.78" y="228.6" size="3.81" layer="91">RTC</text>
 <text x="231.14" y="233.68" size="3.81" layer="91">uSD</text>
 <text x="-205.74" y="231.14" size="3.81" layer="91">2x7 pinout</text>
@@ -5274,10 +5274,13 @@ alternative power source (VGEN1)</text>
 <attribute name="NAME" x="220.98" y="121.412" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="Q1" gate="A" x="134.62" y="124.46" rot="MR270"/>
-<instance part="D3" gate="G$1" x="149.86" y="137.16" rot="R270"/>
+<instance part="D3" gate="G$1" x="149.86" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="152.4" y="139.7" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="146.05" y="149.86" size="1.27" layer="96" rot="R270"/>
+</instance>
 <instance part="C5" gate="G$1" x="149.86" y="111.76" smashed="yes">
 <attribute name="NAME" x="146.304" y="109.093" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.844" y="115.951" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="146.304" y="115.951" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C6" gate="G$1" x="93.98" y="114.3" smashed="yes">
 <attribute name="NAME" x="90.424" y="111.633" size="1.778" layer="95" rot="R180"/>
