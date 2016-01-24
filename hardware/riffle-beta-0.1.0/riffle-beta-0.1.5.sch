@@ -5112,7 +5112,7 @@ body 7.63 mm</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFunNew" deviceset="AYZ0202" device=""/>
 <part name="Q1" library="zetex" deviceset="PMOSSOT23" device="" value="FDN340P"/>
-<part name="D3" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY SM4002PL-TP"/>
+<part name="D3" library="adafruit" deviceset="DIODE" device="_SOD-123FL" value="SCHOTTKY MBR120VLSFT3G"/>
 <part name="C5" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -5276,7 +5276,7 @@ alternative power source (VGEN1)</text>
 <instance part="Q1" gate="A" x="134.62" y="124.46" rot="MR270"/>
 <instance part="D3" gate="G$1" x="149.86" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="152.4" y="139.7" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="146.05" y="149.86" size="1.27" layer="96" rot="R270"/>
+<attribute name="VALUE" x="146.05" y="144.78" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="C5" gate="G$1" x="149.86" y="111.76" smashed="yes">
 <attribute name="NAME" x="146.304" y="109.093" size="1.778" layer="95" rot="R180"/>
