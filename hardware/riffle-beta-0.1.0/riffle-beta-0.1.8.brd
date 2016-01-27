@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.254" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.254" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -206,6 +206,20 @@
 <text x="73.1774" y="15.5702" size="0.5588" layer="22" rot="MR90">MISO</text>
 <text x="16.0274" y="13.4112" size="0.8128" layer="21" font="vector" rot="R180">IC6</text>
 <text x="34.3662" y="1.3208" size="0.8128" layer="21" font="vector" rot="R180">IC4</text>
+<text x="91.948" y="1.778" size="0.762" layer="22" font="vector" rot="MR180">VBAT</text>
+<text x="88.9" y="1.778" size="0.762" layer="22" font="vector" rot="MR180">A0</text>
+<text x="88.392" y="4.318" size="0.762" layer="22" font="vector" rot="MR180">SCL</text>
+<text x="93.218" y="4.318" size="0.762" layer="22" font="vector" rot="MR180">A1</text>
+<text x="88.392" y="6.858" size="0.762" layer="22" font="vector" rot="MR180">SDA</text>
+<text x="93.218" y="6.858" size="0.762" layer="22" font="vector" rot="MR180">A2</text>
+<text x="89.154" y="9.398" size="0.762" layer="22" font="vector" rot="MR180">D2</text>
+<text x="92.964" y="9.398" size="0.762" layer="22" font="vector" rot="MR180">SCK</text>
+<text x="89.154" y="11.938" size="0.762" layer="22" font="vector" rot="MR180">D3</text>
+<text x="92.456" y="11.938" size="0.762" layer="22" font="vector" rot="MR180">MOSI</text>
+<text x="88.9" y="14.478" size="0.762" layer="22" font="vector" rot="MR180">3V</text>
+<text x="92.456" y="14.478" size="0.762" layer="22" font="vector" rot="MR180">MISO</text>
+<text x="88.646" y="17.018" size="0.762" layer="22" font="vector" rot="MR180">GND</text>
+<text x="92.964" y="17.018" size="0.762" layer="22" font="vector" rot="MR180">D10</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1184,9 +1198,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP1" library="pinhead" package="1X02" value="" x="10.9032" y="12.2606" smashed="yes" rot="R270">
 <attribute name="VALUE" x="7.7282" y="14.8006" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U$1" library="hrs_DM3D-SF" package="DM3D" value="MICROSD-HRS_DM3D" x="95.4656" y="12.7762" smashed="yes" rot="R180">
-<attribute name="VALUE" x="86.6636" y="9.0426" size="0.4064" layer="25" font="vector" ratio="16" rot="R270"/>
-</element>
+<element name="U$1" library="hrs_DM3D-SF" package="DM3D" value="MICROSD-HRS_DM3D" x="95.4656" y="12.7762" smashed="yes" rot="R180"/>
 <element name="BATTPOWER" library="zetex" package="SOT-23" value="FDN340P" x="60.9864" y="5.1398" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="60.9864" y="5.1398" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="60.9864" y="5.1398" size="1.778" layer="27" rot="R180" display="off"/>
