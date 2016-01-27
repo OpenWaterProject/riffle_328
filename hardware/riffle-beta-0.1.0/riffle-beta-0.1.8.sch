@@ -5760,12 +5760,6 @@ alternative power source (VGEN1)</text>
 <junction x="93.98" y="124.46"/>
 </segment>
 <segment>
-<pinref part="BATTPOWER" gate="A" pin="S"/>
-<wire x1="331.216" y1="279.908" x2="338.328" y2="279.908" width="0.1524" layer="91"/>
-<wire x1="338.328" y1="279.908" x2="338.328" y2="282.448" width="0.1524" layer="91"/>
-<label x="338.074" y="283.718" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP5" gate="A" pin="14"/>
 <wire x1="-182.626" y1="244.856" x2="-177.546" y2="244.856" width="0.1524" layer="91"/>
 <label x="-176.53" y="244.348" size="1.778" layer="95"/>
@@ -6401,7 +6395,7 @@ alternative power source (VGEN1)</text>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="IC4" gate="1" pin="IN"/>
 <wire x1="246.38" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
@@ -6410,6 +6404,13 @@ alternative power source (VGEN1)</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 <junction x="246.38" y="127"/>
+<label x="231.14" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BATTPOWER" gate="A" pin="S"/>
+<wire x1="331.216" y1="279.908" x2="338.328" y2="279.908" width="0.1524" layer="91"/>
+<wire x1="338.328" y1="279.908" x2="338.328" y2="282.448" width="0.1524" layer="91"/>
+<label x="338.074" y="283.718" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
