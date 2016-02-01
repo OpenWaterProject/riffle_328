@@ -5275,7 +5275,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1.4K"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1.4K"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>

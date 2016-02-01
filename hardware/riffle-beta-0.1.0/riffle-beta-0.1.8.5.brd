@@ -1276,7 +1276,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="8.0015" y="14.5167" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="7.049" y="15.774" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C2" library="SparkFun" package="0603-CAP" value="0.1uF" x="11.3448" y="16.8882" smashed="yes" rot="R180">
+<element name="C2" library="SparkFun" package="0603-CAP" value="10uF" x="11.3448" y="16.8882" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.6623" y="16.0627" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="12.3608" y="18.0312" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
