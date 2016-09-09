@@ -16,6 +16,19 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 
 <img src="pics/bottle_enclosure.png">
 
+<img src="pics/bottle_enclosure.png">
+
+<img src="pics/rice.jpg">
+
+<img src="pics/rubber_stopper.jpg">
+
+<img src="pics/screws_a.jpg">
+
+<img src="pics/screws_b.jpg">
+
+<img src="pics/pvc.jpg">
+
+
 # What drove IC / placement choices
 - Atmel vs ARM
 - CH340 -- cheap and easy (but not easy to source)
