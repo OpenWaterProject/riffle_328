@@ -14,19 +14,17 @@
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
 
-<img src="pics/bottle_enclosure.png">
+<img src="pics/bottle_enclosure.png" width=300>
 
-<img src="pics/bottle_enclosure.png">
+<img src="pics/rice.jpg" width=300> 
 
-<img src="pics/rice.jpg">
+<img src="pics/rubber_stopper.jpg" width=300> 
 
-<img src="pics/rubber_stopper.jpg">
+<img src="pics/screws_a.jpg" width=300> 
 
-<img src="pics/screws_a.jpg">
+<img src="pics/screws_b.jpg" width=300> 
 
-<img src="pics/screws_b.jpg">
-
-<img src="pics/pvc.jpg">
+<img src="pics/pvc.jpg" width=300> 
 
 
 # What drove IC / placement choices
