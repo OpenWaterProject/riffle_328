@@ -7,9 +7,14 @@
 - Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
 - Easy to share data -- sd card
 
-# Form factor
+# Form factor and enclosure
 - Wanted to enable water bottle as ‘easiest option’
 - Also allows for thin PVC
+
+https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
+https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
+
+<img src="pics/bottle_enclosure.png">
 
 # What drove IC / placement choices
 - Atmel vs ARM
