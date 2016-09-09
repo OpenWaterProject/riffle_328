@@ -26,6 +26,8 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 
 <img src="pics/pvc.jpg" width=300> 
 
+<img src="pics/bottle.png" width=300>
+
 
 # What drove IC / placement choices
 - Atmel vs ARM
