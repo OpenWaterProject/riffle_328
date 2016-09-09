@@ -1,0 +1,13 @@
+Modified by Kina Smith. 
+Added .unixtime() functionality
+Changed the name of the interrupt functions to enableAlarm()
+Added the ability to create Alarms using DateTime Objects
+
+
+Original forked from: https://github.com/bpg/DS3231
+
+Original DateTime Class and its utility code is by Jean-Claude Wippler at JeeLabs
+http://jeelabs.net/projects/cafe/wiki/RTClib 
+
+Released under MIT License http://opensource.org/licenses/mit-license.php
+
