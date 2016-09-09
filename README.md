@@ -14,9 +14,10 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 Some useful guidelines about the best way to contribute to the project (or to fork it) can be found [here](contributing.md)
 
-###About this project
+# About this project
 The Riffle_328 project has been supported through [Public Lab](www.publiclab.org)'s Open Water Initiative, and is licensed under [CERN OHL 1.2](LiCENSE.md).
 
+# Quick Overview
 
 **Hardware notes**.  The [Riffle_328 hardware github repository](https://github.com/OpenWaterProject/riffle) contains the design files and Bill of Materials for the board.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).  The Riffle_328 ver 0.1.8 has the following features:
 
@@ -40,9 +41,6 @@ The Riffle_328 project has been supported through [Public Lab](www.publiclab.org
 - The main [Public Lab Riffle wiki](https://publiclab.org/wiki/riffle);
 - All [posts and research notes](https://publiclab.org/search/riffle) related to the Riffle on Public Lab;
 - The [Public Lab Water Quality Mailing list](https://groups.google.com/forum/#!forum/plots-waterquality).
-
-------
-
 
 # Quick Start
 
