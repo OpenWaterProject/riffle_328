@@ -22,7 +22,7 @@ The Riffle_328 project has been supported through [Public Lab](www.publiclab.org
 
 # Quick Overview
 
-**Hardware notes**.  The [Riffle_328 hardware github repository](https://github.com/OpenWaterProject/riffle) contains the design files and Bill of Materials for the board.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).  The Riffle_328 ver 0.1.8 has the following features:
+**Hardware notes**.  This repository contains the design files and Bill of Materials for the Riffle water monitor.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).  The Riffle_328 ver 0.1.8 has the following features:
 
 - Programmed as an "UNO" in the Arduino IDE
 - Uses an Atmel 328p chip, running at 16 MHz and 3.3V.
