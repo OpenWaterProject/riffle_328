@@ -12,10 +12,12 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 # How you can contribute
 
-Some useful guidelines about the best way to contribute to the project (or to fork it) can be found [here](contributing.md)
+Some useful guidelines about the best way to contribute to the project (or to fork it) can be found [here](contributing.md).
 
 # About this project
 The Riffle_328 project has been supported through [Public Lab](www.publiclab.org)'s Open Water Initiative, and is licensed under [CERN OHL 1.2](LiCENSE.md).
+
+<img src="pics/boots.png">
 
 # Quick Overview
 
