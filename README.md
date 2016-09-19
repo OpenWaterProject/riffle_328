@@ -95,8 +95,3 @@ The Riffle_328 project has been supported through [Public Lab](www.publiclab.org
 - Use the 'GEN' JST connector on the Riffle board.  This power input doesn't have a protective diode, thus avoiding a diode-associated voltage drop, and can power the Riffle down to lower battery voltages.
 
 - Test out different microSD cards;  some of them 'sleep' at lower power settings than others.
-
-# License
-
-This hardware is licensed under the [CERN Open Hardware License Version 1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt).
-
