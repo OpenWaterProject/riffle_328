@@ -17,7 +17,7 @@ Some useful guidelines about the best way to contribute to the project (or to fo
 # About this project
 The Riffle_328 project has been supported through [Public Lab](www.publiclab.org)'s Open Water Initiative, and is licensed under [CERN OHL 1.2](LiCENSE.md).
 
-<img src="pics/boots.png">
+<a href="http://publiclab.org"><img src="pics/boots.png" width=100></a>
 
 # Quick Overview
 
