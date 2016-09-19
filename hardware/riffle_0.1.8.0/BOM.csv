@@ -1,0 +1,28 @@
+Part,Details,Device,Package,Description,,MF,Cost per 100,cost,Source
+BAT,CR1220,BATTERYBATTERY_12MM_SMT,BATTCON_12MM_SMT,Battery Holders,,,1.8,1.8,http://www.digikey.com/product-detail/en/1056TR/1056KCT-ND/4772075
+"BATTPOWER, REMOTE, SDPWER",FDN340P,PMOSSOT23,SOT-23,MOS FET,,,0.24,0.72,http://www.digikey.com/product-detail/en/FDN340P/FDN340PCT-ND/965604
+"C1,C4,C5,C6",10uF,CAP0603-CAP,0603-CAP,Capacitor,*,,0.07,0.28,http://www.digikey.com/product-detail/en/CC0603MRX5R5BB106/311-1448-1-ND/2833754
+"C2,C3,C7,C8,C9,C10,C11",0.1uF,CAP0603-CAP,0603-CAP,Capacitor,*,,0.04,0.28,http://www.digikey.com/product-detail/en/C0603C104J4RACTU/399-1097-1-ND/411372
+CN1,,JST_2PIN-SMT-RA,JST-PH-2-SMT-RA,JST 2-Pin Connectors of various flavors,,,0.4,0.4,http://www.digikey.com/product-detail/en/S2B-PH-SM4-TB%28LF%29%28SN%29/455-1749-1-ND/926846
+D1,LED0603,LED0603,0603-LED,,*,blue,0.23,0.23,http://www.digikey.com/product-detail/en/APT1608QBC%2FD/754-1434-1-ND/2163792
+D2,LED0603,LED0603,0603-LED,,,yellow,0.17,0.17,http://www.digikey.com/product-detail/en/APT1608SYCK/754-1124-1-ND/1747841
+"D3, D4",SCHOTTKY,DIODE_SOD-123FL,SOD-123FL,Diode,,,0.22,0.44,http://www.digikey.com/product-detail/en/SM4002PL-TP/SM4002PL-TPMSCT-ND/1793404
+IC1,ATMEGA328P,MEGA8-AI,TQFP32-08,MICROCONTROLLER,*,ATMEGA8-16AU,2.7,2.7,http://www.digikey.com/product-detail/en/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260
+IC2,MCP73831,MCP73831,SOT23-5,Microchip's MCP73831,,,0.42,0.42,http://www.digikey.com/product-detail/en/MCP73831T-2ACI%2FOT/MCP73831T-2ACI%2FOTCT-ND/1979802
+IC3,CH340G,CH340G,SO16,,,,0.6,0.6,rui
+"IC4, IC6",MCP1700-33,MCP1700SOT89,SOT89,VOLTAGE REGULATOR,*,,0.29,0.58,http://www.digikey.com/product-detail/en/0/MCP1700T3302EMBCT-ND
+IC5,24AA128SN,24AA128SN,SO-08,Serial EEPROM,,24AA128-I/SN,0.5,0.5,http://www.digikey.com/product-detail/en/24AA128-I%2FSN/24AA128-I%2FSN-ND/442845
+ISP,,PINHD-2X3,2X03,PIN HEADER,,,,,(leave open for programming)
+J1,AYZ0202,AYZ0202,AYZ0202,SPDT Slide Switch,,,1.07,1.07,http://www.digikey.com/product-detail/en/AYZ0202AGRLC/401-2013-1-ND/1640122
+JP1,,PINHD-1X2,1X02,PIN HEADER,,,,,(leave open)
+JP3,,M04SMD,1X04-SMD,Header 4,,,,,(leave open)
+JP5,,PINHD-2X7,2X07,PIN HEADER,,,0.98,0.98,http://www.digikey.com/product-detail/en/PPTC072LJBN-RC/S5521-ND/775979
+L1,500mA,PTCFUSE-1206,R1206,"PTC fuses, resettable thermistors",,,0.17,0.17,http://www.digikey.com/product-detail/en/0ZCA0050FF2G/507-1480-1-ND/2165309
+"R1,R3,R4,R5,R6,R9,R10",10K,RESISTOR_0603_NOOUT,0603-NO,Resistors,*,,0.02,0.14,http://www.digikey.com/product-detail/en/CR0603-JW-103GLF/CR0603-JW-103GLFCT-ND/3925332
+R2,4.7K,RESISTOR_0603_NOOUT,0603-NO,Resistors,*,,0.11,0.11,http://www.digikey.com/product-detail/en/MCT0603MD4701DP500/MCT0603-4.7K-MDCT-ND/2092126
+"R7,R8",50K,RESISTOR_0603_NOOUT,0603-NO,Resistors,*,,0.005,0.01,http://www.digikey.com/product-detail/en/RC0603JR-07100RL/311-100GRCT-ND/729644
+RTC-DS3231,DS3231,DS3231,DS3231,,,,6.3,6.3,http://www.digikey.com/product-detail/en/DS3231S%23/DS3231S%23-ND/1197574
+U$1,MICROSD-HRS_DM3D,MICROSD-HRS_DM3D,DM3D,,*,,1.5,1.5,http://www.digikey.com/product-detail/en/DM3D-SF/HR1941CT-ND/1786515
+U$4,,"USB-AB""",USB-AB-MICRO-SMD_V02_BOSS,This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device,,,0.6,0.6,http://www.digikey.com/product-detail/en/10104111-0001LF/609-4053-1-ND/2350359
+X2,12MHz,RESONATORSMD,RESONATOR-SMD,Resonator,,X,0.4,0.4,https://www.digikey.com/product-detail/en/CSTCE12M0G55-R0/490-1197-1-ND/584634
+X3,16 MHz,RESONATORSMD,RESONATOR-SMD,Resonator,*,,0.32,0.32,http://www.digikey.com/product-detail/en/CSTCE16M0V53-R0/490-1198-1-ND/584635
